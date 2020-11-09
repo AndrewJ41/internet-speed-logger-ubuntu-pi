@@ -1,5 +1,7 @@
 # Internet Speed Logger - Ubuntu - Raspberry Pi 4 Edition
 
+Source Repo & Kudos to @brennetsmith - https://github.com/brennentsmith/internet-speed-logger
+
 _An application to track your internet download and upload speeds with an elegant web interface which authenticates a user with basic auth._
 
 ![Preview of Internet Speed Logger](https://i.imgur.com/LhtHxpZ.gif)
