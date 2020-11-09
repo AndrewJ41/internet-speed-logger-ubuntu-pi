@@ -1,0 +1,28 @@
+{
+  "name": "internet-speed-logger",
+  "version": "0.1.0",
+  "description": "Automated logger and grapher for speedtests, with basic auth",
+  "main": "index.js",
+  "scripts": {
+    "app": "node_modules/forever/bin/forever stopall && forever start app.json"
+  },
+  "author": "Andrew Johnston",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "compression": "^1.6.2",
+    "config": "^3.2.3",
+    "express": "^4.14.0",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.3.3",
+    "morgan": "^1.9.1",
+    "vis-charts": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "forever": "^0.15.3",
+    "nodemon": "^1.10.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "webserver": {
+    "listenPort": 3038,
+    "listenHost": "192.168.1.37"
+  },
+  "db": {
+    "ip": "localhost",
+    "port": 27017,
+    "name": "speedtest", 
+    "user": "speedtest",
+    "password": "speedtest",
+    "collection": "speedtest"
+  },
+  "speedtest": {
+    "commandString": "bin/speedtest -f json --accept-license --accept-gdpr",
+    "intervalMins": 5
+  },
+  "authentication": {
+    "name": "<username>",
+    "password": "<password>"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    // App using Node v0.11.8
+    "uid": "SpeedCheckWebApp",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "/home/minipc/internet-speed-logger/"
+  },
+  {
+    // App using io.js
+    "uid": "SpeedCheckRun",
+    "append": true,
+    "watch": true,
+    "script": "run-speedtest.js",
+    "sourceDir": "/home/minipc/internet-speed-logger/",
+    "args": ["daemon"]
+  }
+]
+
